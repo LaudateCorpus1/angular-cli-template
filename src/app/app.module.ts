@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
+import { ContactPageComponent } from './components/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutPageComponent } from './components/about-page/about-page.component
     NavbarComponent,
     FooterComponent,
     HomePageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    ContactPageComponent
   ],
   imports: [
     NgbModule.forRoot(),

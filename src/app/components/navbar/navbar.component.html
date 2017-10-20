@@ -13,7 +13,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/about" routerLinkActive="active"  (click)="isCollapsed = false" [attr.aria-expanded]="!isCollapsed">About</a>
+        <a class="nav-link" routerLink="/about" routerLinkActive="active" (click)="isCollapsed = false" [attr.aria-expanded]="!isCollapsed">About</a>
       </li>
       <li class="nav-item dropdown" ngbDropdown>
         <a class="nav-link" ngbDropdownToggle>Dropdown link</a>
@@ -24,7 +24,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" aria-controls="collapseExample" (click)="isCollapsed = false" [attr.aria-expanded]="!isCollapsed">Contact</a>
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="isCollapsed = false" [attr.aria-expanded]="!isCollapsed">Contact</a>
       </li>
     </ul>
   </div>
