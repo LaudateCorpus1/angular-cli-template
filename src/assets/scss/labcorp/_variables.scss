@@ -1,0 +1,56 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$gray-100: #f3f7fa;
+$gray-200: #edf1f4;
+$gray-300: #d9e1e7;
+$gray-400: #c6d1d6;
+$gray-500: #818b90;
+$gray-600: #63777c;
+$gray-700: #525c61;
+$gray-800: #2d363b;
+$gray-900: #0b1519;
+
+$blue:    #003a70;
+$red:     #790e1d;
+$yellow:  #c59c38;
+$green:   #155724;
+$cyan:    #007a6e;
+
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $gray-200;
+$body-color:                $gray-700;
+
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-decoration:                         underline;
+
+
+
+// Typography
+
+// stylelint-disable value-keyword-case
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+$font-family-sans-serif:      "Roboto", sans-serif;
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+$h1-font-size:                $font-size-base * 2.25;
+$h2-font-size:                $font-size-base * 1.875;
+$h3-font-size:                $font-size-base * 1.5;
+$h4-font-size:                $font-size-base * 1.25;
+$h5-font-size:                $font-size-base * 1;
+$h6-font-size:                $font-size-base * 0.8125;
