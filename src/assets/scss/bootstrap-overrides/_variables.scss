@@ -23,6 +23,31 @@ $cyan:    #007a6e;
 
 
 
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .50),
+    3: ($spacer * .75),
+    4: $spacer,
+    5: ($spacer * 1.5),
+    6: ($spacer * 2),
+    7: ($spacer * 3)
+  ),
+  $spacers
+);
+
+
+
 // Body
 //
 // Settings for the `<body>` element.
@@ -54,3 +79,16 @@ $h3-font-size:                $font-size-base * 1.5;
 $h4-font-size:                $font-size-base * 1.25;
 $h5-font-size:                $font-size-base * 1;
 $h6-font-size:                $font-size-base * 0.8125;
+
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-width: 1200px;
+
+
+
+// Navbar
+
+$navbar-padding-y:                  $spacer * 1.75;
